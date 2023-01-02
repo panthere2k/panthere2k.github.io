@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configure a rule with the Skip action on Security365 Docs</title><link>https://panthere2k.github.io/waf/custom-rules/skip/</link><description>Recent content in Configure a rule with the Skip action on Security365 Docs</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://panthere2k.github.io/waf/custom-rules/skip/index.xml" rel="self" type="application/rss+xml"/><item><title>API examples</title><link>https://panthere2k.github.io/waf/custom-rules/skip/api-examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://panthere2k.github.io/waf/custom-rules/skip/api-examples/</guid><description>API examples of custom rules with the Skip actionUse the Rulesets API to configure custom rules via API.
+The skip action supports different skip options, according to the security features or products that you wish to skip.
+The following sections provide examples for the different skip rule scenarios available for custom rules.
+Take the following into account regarding the provided examples:
+The &amp;lt;ZONE_ID&amp;gt; value is the ID of the zone where you want to add the rule.</description></item><item><title>Skip options</title><link>https://panthere2k.github.io/waf/custom-rules/skip/options/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://panthere2k.github.io/waf/custom-rules/skip/options/</guid><description>Available skip optionsThe available skip options in custom rules are the following:
+Skip the remaining custom rules (current ruleset)
+Dashboard option: All remaining custom rules. API action parameter: ruleset. Skips the remaining rules in the current ruleset. Skip phases
+Dashboard options: All rate limiting rules and All managed rules.
+API action parameter: phases.
+Skips the execution of one or more phases. Based on the phases you can skip, this option effectively allows you to skip rate limiting rules and/or WAF Managed Rules.</description></item></channel></rss>

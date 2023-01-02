@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Allow and block lists on Security365 Docs</title><link>https://panthere2k.github.io/email-security/email-configuration/lists/</link><description>Recent content in Allow and block lists on Security365 Docs</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://panthere2k.github.io/email-security/email-configuration/lists/index.xml" rel="self" type="application/rss+xml"/><item><title>Allowed patterns</title><link>https://panthere2k.github.io/email-security/email-configuration/lists/allowed-patterns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://panthere2k.github.io/email-security/email-configuration/lists/allowed-patterns/</guid><description>Allowed patternsWhen you set up allowed patterns, Cloudflare Area 1 email security exempts messages that match certain patterns from normal detection scanning.
+&amp;#8203;​ Add an allowed pattern To create a new allowed pattern:
+Log in to the Area 1 dashboard External link icon Open external link .
+Go to Settings (the gear icon).
+On Email Configuration, go to Allow List &amp;gt; Allowed Patterns.
+Select + New Pattern.
+Enter the pattern information:</description></item><item><title>Trusted domains</title><link>https://panthere2k.github.io/email-security/email-configuration/lists/trusted-domains/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://panthere2k.github.io/email-security/email-configuration/lists/trusted-domains/</guid><description>Trusted domainsTrusted domains allows you to identify domains that should be exempted from Area 1 detections.
+&amp;#8203;​ Default behavior When messages come to your recipients from certain domains, Area 1 triggers certain detections by default:
+Proximity Domains: Domains with similar spelling to your existing domain. Will trigger a Spoof detection. Recent Domains: Domains created recently (exact definition set in Added Detections). Will trigger a Malicious or Suspicious detection. However, sometimes those domains are legitimate.</description></item><item><title>Block lists</title><link>https://panthere2k.github.io/email-security/email-configuration/lists/block-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://panthere2k.github.io/email-security/email-configuration/lists/block-list/</guid><description>Block listsWhen you add blocked senders, Area 1 automatically marks all messages from these senders with a Malicious disposition.
+&amp;#8203;​ Add a blocked sender To create a new blocked pattern:
+Log in to the Area 1 dashboard External link icon Open external link .
+Go to Settings (the gear icon).
+On Email Configuration, go to Block List &amp;gt; Blocked Senders.
+Select + New Sender.
+Enter the pattern information:
+Sender: Enter one of the following types of pattern:</description></item></channel></rss>
