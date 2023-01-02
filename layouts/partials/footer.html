@@ -42,7 +42,7 @@
     <div>
       <span class="DocsFooter--edit-on-gh-link-wrapper">
         {{- with .File -}} {{- $url := (printf
-        "https://github.com/panthere2k/panthere2k.github.io/blob/main/content/%s"
+        "https://github.com/panthere2k/panthere2k.github.io/blob/content/content/%s"
         .Path) -}} {{- partial "external.link" (dict "text" "Edit on GitHub"
         "url" $url) }} {{- end -}}
       </span>
