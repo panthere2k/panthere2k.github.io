@@ -23,6 +23,14 @@ jobs:
         with:
           hugo-version: 'latest'
 
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Node module
+        run: npm install
+
       - name: Build site with Hugo
         run: hugo --minify
 
